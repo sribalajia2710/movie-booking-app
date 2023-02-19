@@ -1,0 +1,45 @@
+.hero-banner {
+  background-image: url("../../assets/movie-hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: rgb(253, 183, 59);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: rgb(253, 204, 59);
+}
+
+.cta-wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
