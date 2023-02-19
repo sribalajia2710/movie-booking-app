@@ -9,10 +9,10 @@ To get started with this project, please follow the steps below:
 2. Navigate to the project directory movie-booking-app
 3. Install the dependencies using the following command:
 
-npm install
+   npm install
 
 4. Start the development server using the following command:
 
-npm start
+   npm start
 
 5. The application will open in your default browser at http://localhost:3000.
