@@ -14,6 +14,7 @@ type Movie = {
 
 const MovieList = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
+  const [theatre, setTheatre] = useState([]);
 
   useEffect(() => {
     const fetchMovieTheatres = async () => {
@@ -23,7 +24,9 @@ const MovieList = () => {
           user_mail_id: "sri@gmail.com",
         }
       );
+      console.log(response)
       setMovies(response.data.movies);
+      setTheatre(response.data.theatre);
     };
     fetchMovieTheatres();
   }, []);
@@ -42,6 +45,7 @@ const MovieList = () => {
               tags={movie.tags}
               releaseDate={movie.release_date}
               runningTime={movie.running_time}
+              theatres={theatre}
             />
           ))}
       </div>

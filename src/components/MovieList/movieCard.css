@@ -6,6 +6,7 @@
   max-width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  gap: 20px;
 }
 
 .card {
@@ -56,4 +57,14 @@
 .card-text {
   margin-top: 0;
   margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.booking-button{
+  background: rgb(253, 183, 59);
+}
+
+.booking-button:hover{
+  cursor: pointer;
+
 }
